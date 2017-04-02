@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+form {
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: 3px solid #f1f1f1;
+    width: 70%;
+
+    text-align: center;
+}
+body{
+   background-color: powderblue;
+}
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    
+}
+
+button {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 10%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+</style>
+<body>
+<div align="center">
+<form action="/action_page.php">
+
+    <h2>Sign in</h2> 
+        <div class="imgcontainer">
+            <img src="logo.jpg" width="100px" height="100px">
+        </div>
+<div class="container">
+    <div><label><b>USERNAME<b></label></div>
+    <div><input type="text" placeholder="Enter username" name="uname" required></div>
+    <div><label><b>PASSWORD<b></label></div>
+    <div><input type="text" placeholder="Enter password" name="psw" required></div>
+<button type="submit"><b>Login</b></button>
+<input type="checkbox" checked="checked">Remember me</div>
+</form>
+</body>
+</html>
